@@ -38,4 +38,4 @@ if __name__ == "__main__":
     ax.set_ylim([-3, 4])
 
     fig.legend()
-    plt.show()
+    plt.savefig("./data/lj.png")
