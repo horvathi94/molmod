@@ -1,6 +1,9 @@
-**/data/*
-*.png
-*.sqlite
+**.log
+**.gsd
+**.png
+**.sqlite
+**.cube
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
