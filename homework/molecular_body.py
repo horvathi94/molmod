@@ -115,6 +115,6 @@ if __name__ == "__main__":
     a = 0.1
     rho = read_cube_file("ethanol.ed.cube")
 
-    indices = molecular_body(rho, a)
+    indices = indices_of_B(rho, a)
 
     verify_results(indices)
